@@ -1,0 +1,35 @@
+@import url("minireset.css");
+
+:root {
+  --moderateViolet: hsl(263deg, 55%, 52%);
+  --veryDarkGrayishBlue: hsl(217deg, 19%, 35%);
+  --veryDarkBlackishBlue: hsl(219deg, 29%, 14%);
+  --white: hsl(0deg, 0%, 100%);
+  --lightGray: hsl(0deg, 0%, 81%);
+  --lightGrayishBlue: hsl(210deg, 46%, 95%);
+
+  font-size: 100%;
+  font-family: Barlow, sans-serif;
+}
+
+body {
+  --background-color: var(--lightGrayishBlue);
+
+  font-size: 0.8125rem;
+  background: var(--background-color);
+}
+
+#root {
+  /* block-size: 100vh; */
+  /* inline-size: 100vw; */
+  display: grid;
+  padding: 4.5rem 1.5rem;
+  min-block-size: 900px;
+}
+
+@media (--desktop) {
+  #root {
+    place-content: center;
+    padding: 0;
+  }
+}

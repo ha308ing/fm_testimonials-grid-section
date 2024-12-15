@@ -1,0 +1,17 @@
+.testimonials {
+  display: grid;
+  grid-auto-flow: row dense;
+  gap: 24.7px 0;
+  justify-content: start;
+}
+
+@media (--desktop) {
+  .testimonials {
+    grid-template:
+      "a a b c" auto
+      "d e e c" auto / 1fr 1fr 1fr 1fr;
+    align-items: normal;
+    max-inline-size: 69.5rem;
+    gap: 24px 28px;
+  }
+}
