@@ -8,7 +8,7 @@ export type TTestimonial = {
 
 export const data = [
   {
-    avatar: "/avatars/image-daniel.jpg",
+    avatar: "avatars/image-daniel.jpg",
     name: "Daniel Clifford",
     status: "Verified Graduate",
     preview:
@@ -17,7 +17,7 @@ export const data = [
       "“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best - and most grueling - time of my life. Since completing the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”",
   },
   {
-    avatar: "/avatars/image-jonathan.jpg",
+    avatar: "avatars/image-jonathan.jpg",
     name: "Jonathan Walters",
     status: "Verified Graduate",
     preview: "The team was very supportive and kept me motivated",
@@ -25,7 +25,7 @@ export const data = [
       "“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for a big company. This was one of the best investments I’ve made in myself. ”",
   },
   {
-    avatar: "/avatars/image-jeanette.jpg",
+    avatar: "avatars/image-jeanette.jpg",
     name: "Jeanette Harmon",
     status: "Verified Graduate",
     preview: "An overall wonderful and rewarding experience",
@@ -33,7 +33,7 @@ export const data = [
       "“ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love. ”",
   },
   {
-    avatar: "/avatars/image-patrick.jpg",
+    avatar: "avatars/image-patrick.jpg",
     name: "Patrick Abrams",
     status: "Verified Graduate",
     preview:
@@ -42,7 +42,7 @@ export const data = [
       "“ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of smart and amazing people. ”",
   },
   {
-    avatar: "/avatars/image-kira.jpg",
+    avatar: "avatars/image-kira.jpg",
     name: "Kira Whittle",
     status: "Verified Graduate",
     preview: "Such a life-changing experience. Highly recommended!",
